@@ -25,8 +25,8 @@ print("Total cases: " + data[0].text.strip())
 print("Total deaths: " + data[1].text.strip())
 print("Total recovered: " + data[2].text.strip())
 print("Active cases: " + status[0].text.strip() + "\t\t--Mild: " + active[0].text.strip() + " (" + per[
-    0].text.strip() + "%)\t\t--Critical: " + active[1].text.strip() + " (" + per[1].text.strip() + "%)")
+    2].text.strip() + "%)\t\t--Critical: " + active[1].text.strip() + " (" + per[3].text.strip() + "%)")
 print("Closed cases: " + status[1].text.strip() + "\t\t--Discharged: " + active[2].text.strip() + " (" + per[
-    2].text.strip() + "%)\t--Deaths: " + active[3].text.strip() + " (" + per[3].text.strip() + "%)")
+    4].text.strip() + "%)\t--Deaths: " + active[3].text.strip() + " (" + per[5].text.strip() + "%)")
 print("Visit WHO website for more info on COVID-19 https://www.who.int/emergencies/diseases/novel-coronavirus-2019")
 print("Data source: https://www.worldometers.info/coronavirus/")
